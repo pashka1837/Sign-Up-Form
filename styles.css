@@ -31,7 +31,7 @@ padding: 6% 10%;
 .termsServices {
   color: hsl(246, 25%, 77%);
   font-size: 10px;
-  padding-top: 3%;
+  margin: 1.5rem auto auto 0;
 }
 .termsServices span {
   color:  hsl(0, 100%, 74%);
@@ -44,11 +44,11 @@ padding: 6% 10%;
 }
 
 #tryFreeBtn {
-  margin: 3% auto;
+  margin: 5% auto;
   background-color: hsl(248, 32%, 49%);
   border-color: hsl(248, 32%, 49%);
   font-size: 13px;
-  padding: 1rem 0.85rem;
+  padding: 1rem 0.78rem;
 }
 #tryFreeBtn:hover {
   filter: drop-shadow(2px 4px 3px hsl(249, 10%, 26%));
