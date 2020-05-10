@@ -77,7 +77,7 @@ padding: 6% 10%;
   border-color: hsl(0, 100%, 74%);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .left .text {
     text-align: center;
   }
