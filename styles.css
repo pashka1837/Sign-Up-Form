@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+
+.container-fluid {
+background-color: hsl(0, 100%, 74%);
+background-image: url("images/bg-intro-desktop.png");
+padding: 6% 10%;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.left .text {
+  text-align: left;
+  padding: 25% 0;
+  color: #ffff;
+}
+
+.right {
+  text-align: center;
+  padding: 0 6%;
+}
+
+.termsServices {
+  color: hsl(246, 25%, 77%);
+  font-size: 10px;
+  padding-top: 3%;
+}
+.termsServices span {
+  color:  hsl(0, 100%, 74%);
+}
+
+/* buttons */
+.btn {
+  border-radius: 7px;
+  font-weight: 400;
+}
+
+#tryFreeBtn {
+  margin: 3% auto;
+  background-color: hsl(248, 32%, 49%);
+  border-color: hsl(248, 32%, 49%);
+  font-size: 13px;
+  padding: 1rem 0.85rem;
+}
+#tryFreeBtn:hover {
+  filter: drop-shadow(2px 4px 3px hsl(249, 10%, 26%));
+}
+
+#claimBtn {
+  background-color: hsl(154, 59%, 51%);
+  border-color: hsl(154, 59%, 51%);
+  font-size: 14px;
+}
+#claimBtn:hover {
+  filter: drop-shadow(2px 4px 4px hsl(246, 25%, 77%));
+}
+
+/* jquery applied */
+.form-text {
+  text-align: right;
+  color: hsl(0, 100%, 74%);
+  font-style: italic;
+}
+
+.warning {
+  background-position:  97% 50%;
+  background-image: url('images/icon-error.svg');
+  background-repeat: no-repeat;
+  border-color: hsl(0, 100%, 74%);
+}
+
+@media (max-width: 576px) {
+  .left .text {
+    text-align: center;
+  }
+
+  #tryFreeBtn {
+    padding: 1rem 5rem;
+  }
+}
